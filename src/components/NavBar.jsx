@@ -1,20 +1,32 @@
 import React from "react";
-import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from "reactstrap";
+import { Navbar, NavbarBrand, Nav, NavItem } from "reactstrap";
 
-const NavBar = () => {
+const NavBar = ({ cats, setSelectedCat }) => {
+  const catHandle = (id) => {
+    setSelectedCat(id);
+  };
+
   return (
     <Navbar color="dark" dark expand="md">
       <NavbarBrand>E-Ticaret Sitesi</NavbarBrand>
       <Nav className="ml-auto" navbar>
-        <NavItem>
-          <NavLink>Ürünler</NavLink>
+        <NavItem
+          onClick={() => catHandle(null)}
+          style={{ color: "wheat", padding: "1rem", cursor: "pointer" }}
+        >
+          Tüm Ürünler
         </NavItem>
-        <NavItem>
-          <NavLink>Sepet</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink>Hesap</NavLink>
-        </NavItem>
+        {cats.map((i) => {
+          return (
+            <NavItem
+              onClick={() => catHandle(i.id)}
+              style={{ color: "wheat", padding: "1rem", cursor: "pointer" }}
+              key={i.id}
+            >
+              {i.ad}
+            </NavItem>
+          );
+        })}
       </Nav>
     </Navbar>
   );
