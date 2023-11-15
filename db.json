@@ -1,0 +1,166 @@
+{
+  "kategoriler": [
+    {
+      "id": 1,
+      "ad": "Elektronik"
+    },
+    {
+      "id": 2,
+      "ad": "Giyim"
+    },
+    {
+      "id": 3,
+      "ad": "Ev ve Yaşam"
+    },
+    {
+      "id": 4,
+      "ad": "Spor"
+    },
+    {
+      "id": 5,
+      "ad": "Kitaplar"
+    }
+  ],
+  "urunler": [
+    {
+      "id": 1001,
+      "ad": "iPhone 12",
+      "fiyat": 6999.99,
+      "kategori_id": 1,
+      "resim": "https://picsum.photos/800/600"
+    },
+    {
+      "id": 1002,
+      "ad": "Samsung Galaxy S21",
+      "fiyat": 5999.99,
+      "kategori_id": 1,
+      "resim": "https://picsum.photos/800/600"
+    },
+    {
+      "id": 1003,
+      "ad": "MacBook Pro",
+      "fiyat": 12999.99,
+      "kategori_id": 1,
+      "resim": "https://picsum.photos/800/600"
+    },
+    {
+      "id": 1004,
+      "ad": "Dell XPS 13",
+      "fiyat": 8999.99,
+      "kategori_id": 1,
+      "resim": "https://picsum.photos/800/600"
+    },
+    {
+      "id": 2001,
+      "ad": "Polo T-Shirt",
+      "fiyat": 49.99,
+      "kategori_id": 2,
+      "resim": "https://picsum.photos/800/600"
+    },
+    {
+      "id": 2002,
+      "ad": "Denim Jeans",
+      "fiyat": 79.99,
+      "kategori_id": 2,
+      "resim": "https://picsum.photos/800/600"
+    },
+    {
+      "id": 2003,
+      "ad": "Summer Dress",
+      "fiyat": 129.99,
+      "kategori_id": 2,
+      "resim": "https://picsum.photos/800/600"
+    },
+    {
+      "id": 2004,
+      "ad": "High Heels",
+      "fiyat": 89.99,
+      "kategori_id": 2,
+      "resim": "https://picsum.photos/800/600"
+    },
+    {
+      "id": 3001,
+      "ad": "Mutfak Robotu",
+      "fiyat": 299.99,
+      "kategori_id": 3,
+      "resim": "https://picsum.photos/800/600"
+    },
+    {
+      "id": 3002,
+      "ad": "Çamaşır Makinesi",
+      "fiyat": 1499.99,
+      "kategori_id": 3,
+      "resim": "https://picsum.photos/800/600"
+    },
+    {
+      "id": 3003,
+      "ad": "Oturma Odası Halısı",
+      "fiyat": 399.99,
+      "kategori_id": 3,
+      "resim": "https://picsum.photos/800/600"
+    },
+    {
+      "id": 3004,
+      "ad": "Mikrodalga Fırın",
+      "fiyat": 199.99,
+      "kategori_id": 3,
+      "resim": "https://picsum.photos/800/600"
+    },
+    {
+      "id": 4001,
+      "ad": "Futbol Topu",
+      "fiyat": 29.99,
+      "kategori_id": 4,
+      "resim": "https://picsum.photos/800/600"
+    },
+    {
+      "id": 4002,
+      "ad": "Yoga Matı",
+      "fiyat": 19.99,
+      "kategori_id": 4,
+      "resim": "https://picsum.photos/800/600"
+    },
+    {
+      "id": 4003,
+      "ad": "Koşu Ayakkabısı",
+      "fiyat": 89.99,
+      "kategori_id": 4,
+      "resim": "https://picsum.photos/800/600"
+    },
+    {
+      "id": 4004,
+      "ad": "Bisiklet",
+      "fiyat": 499.99,
+      "kategori_id": 4,
+      "resim": "https://picsum.photos/800/600"
+    },
+    {
+      "id": 5001,
+      "ad": "Bilim Kurgu Romanı",
+      "fiyat": 14.99,
+      "kategori_id": 5,
+      "resim": "https://picsum.photos/800/600"
+    },
+    {
+      "id": 5002,
+      "ad": "Tarih Kitabı",
+      "fiyat": 24.99,
+      "kategori_id": 5,
+      "resim": "https://picsum.photos/800/600"
+    },
+    {
+      "id": 5003,
+      "ad": "Şiir Antolojisi",
+      "fiyat": 9.99,
+      "kategori_id": 5,
+      "resim": "https://picsum.photos/800/600"
+    },
+    {
+      "id": 5004,
+      "ad": "Koch'un Mutfağı",
+      "fiyat": 34.99,
+      "kategori_id": 5,
+      "resim": "https://picsum.photos/800/600"
+    }
+  ]
+}
