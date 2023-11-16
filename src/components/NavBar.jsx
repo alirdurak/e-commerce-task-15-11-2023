@@ -23,7 +23,7 @@ const NavBar = ({ cats, setSelectedCat }) => {
               style={{ color: "wheat", padding: "1rem", cursor: "pointer" }}
               key={i.id}
             >
-              {i.ad}
+              {i.ad}-{i.FavCount}
             </NavItem>
           );
         })}

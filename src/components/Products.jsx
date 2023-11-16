@@ -10,9 +10,10 @@ import {
   CardBody,
   CardTitle,
   CardSubtitle,
+  Button,
 } from "reactstrap";
 
-const Products = ({ products, selectedCat }) => {
+const Products = ({ products, selectedCat, addFav }) => {
   const productsList = !selectedCat
     ? products
     : products.filter((i) => i.kategori_id === selectedCat);
@@ -28,6 +29,14 @@ const Products = ({ products, selectedCat }) => {
                 <CardTitle>{product.ad}</CardTitle>
                 <CardSubtitle>Fiyat: ${product.fiyat}</CardSubtitle>
               </CardBody>
+              <Button
+                style={{
+                  backgroundColor: product.favorited && "red",
+                }}
+                onClick={() => addFav(product)}
+              >
+                {product.favorited ? "Favorilerden Çıkar" : "Favorilere Ekle"}
+              </Button>
             </Card>
           </Col>
         ))}
